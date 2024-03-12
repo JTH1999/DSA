@@ -10,7 +10,7 @@
 # Output: 7
 # Explanation: Subarray with maximum sum is [3, 4].
 
-def: max_sub_array_of_size_k(k,arr):
+def max_sub_array_of_size_k(k,arr):
     maxSum, windowSum, windowStart = 0, 0, 0
     for windowEnd in range(len(arr)):
         windowSum += arr[windowEnd]
@@ -20,7 +20,7 @@ def: max_sub_array_of_size_k(k,arr):
             windowSum -= arr[windowStart]
             windowStart += 1
             
-    return max(sums)
+    return maxSum
     
 # Time complexity O(N)
 # Space complexity O(1)
