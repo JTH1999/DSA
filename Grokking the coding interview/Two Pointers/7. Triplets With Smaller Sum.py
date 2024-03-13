@@ -34,3 +34,6 @@ def search_pairs(arr, target, left):
             right -= 1
 
     return count
+
+# Time complexity O(N^2)
+# Space complexity O(N) because sorting
