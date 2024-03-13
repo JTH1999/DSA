@@ -27,6 +27,7 @@ def search_pairs(arr, target, left):
         if arr[left] + arr[right] < target:
             # originally had count += 1 here, but we can say count += right - left since arr[right] will always be greater than arr[left]
             # so arr[left] + arr[right] is always less than target here
+            # Time complexity would be N^3 using my inital approach!
             count += right - left
             left += 1
         else:
