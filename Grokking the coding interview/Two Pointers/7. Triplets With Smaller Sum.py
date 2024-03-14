@@ -37,3 +37,8 @@ def search_pairs(arr, target, left):
 
 # Time complexity O(N^2)
 # Space complexity O(N) because sorting
+
+# If this was changed to recording each triplet rather than the count, how would the time complexity change?
+
+# Time complexity would go to N^3 because rather than the count += right - left step we need to iterate through 
+# each item of the array from the right, for each increment of left. So search_pairs goes to O(N^2)
