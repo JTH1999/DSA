@@ -12,4 +12,4 @@ Leetcode to sync:
 
 - Sliding window 10 - 12
 - Two pointers 4 - 10
-- Fast Slow Pointers 2-3
+- Fast Slow Pointers 2-6
