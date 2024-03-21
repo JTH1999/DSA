@@ -4,11 +4,11 @@ This aims to keep everything contained, reinforce learning, and make it easier t
 
 Flashcards to solidify learning: https://www.memcode.com/courses/13360
 
-##TDOD:
+## TODO:
 
 - Sliding window problem challenge 4
 
-##Leetcode to sync:
+## Leetcode to sync:
 
 - Sliding window 10 - 12
 - Two pointers 4 - 10
