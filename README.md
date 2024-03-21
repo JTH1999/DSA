@@ -14,7 +14,7 @@ Flashcards to solidify learning: https://www.memcode.com/courses/13360
 - Two pointers 4 - 10
 - Fast Slow Pointers 2-8
 
-##Progress:
+## Progress:
 
 - Sliding Window 14/16
 - ~Two Pointers 12/12~
