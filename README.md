@@ -19,7 +19,7 @@ Flashcards to solidify learning: https://www.memcode.com/courses/13360
 - Sliding Window 14/16
 - ~Two Pointers 12/12~
 - ~Fast Slow Pointers 11/11~
-- Merge Intervals 2/11
+- Merge Intervals 3/11
 - Cyclic Sort 0/11
 - In Place Reversal of LinkedList 0/8
 - Tree Breadth First Search 0/12
