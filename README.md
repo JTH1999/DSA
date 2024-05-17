@@ -24,12 +24,11 @@ This aims to keep everything contained, reinforce learning, and make it easier t
 
 ### Done
 
-🦗
+- Quick Sort
 
 ### TODO
 
 - Binary Search
-- Quick Sort
 - Merge Sort
 - Depth-First Search
 - Breadth-First Search
