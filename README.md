@@ -2,6 +2,40 @@
 
 This aims to keep everything contained, reinforce learning, and make it easier to revisit topics in the future.
 
+# Data Structures and Algorithms
+
+## Data Structures
+
+### Done
+
+🦗
+
+### TODO
+
+- Linked Lists
+- Trees, Tries, Graphs
+- Stacks
+- Queues
+- Heaps
+- Vectors / ArrayLists
+- Hash Tables
+
+## Algorithms
+
+### Done
+
+🦗
+
+### TODO
+
+- Binary Search
+- Quick Sort
+- Merge Sort
+- Depth-First Search
+- Breadth-First Search
+
+# Grokking the Coding Interview
+
 Flashcards to solidify learning: https://www.memcode.com/courses/13360
 
 ## TODO:
@@ -19,7 +53,7 @@ Flashcards to solidify learning: https://www.memcode.com/courses/13360
 - Sliding Window 14/16
 - ~Two Pointers 12/12~
 - ~Fast Slow Pointers 11/11~
-- Merge Intervals 3/11
+- Merge Intervals 5/11
 - Cyclic Sort 0/11
 - In Place Reversal of LinkedList 0/8
 - Tree Breadth First Search 0/12
