@@ -8,11 +8,10 @@ This aims to keep everything contained, reinforce learning, and make it easier t
 
 ### Done
 
-🦗
+- Linked Lists
 
 ### TODO
 
-- Linked Lists
 - Trees, Tries, Graphs
 - Stacks
 - Queues
