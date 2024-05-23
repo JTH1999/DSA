@@ -9,13 +9,15 @@ This aims to keep everything contained, reinforce learning, and make it easier t
 ### Done
 
 - Linked Lists
+- Trees
+- Binary Search Tree (TODO: finish delete)
+- Heap (Priority queue)
 
 ### TODO
 
-- Trees, Tries, Graphs
+- Tries, Graphs
 - Stacks
 - Queues
-- Heaps
 - Vectors / ArrayLists
 - Hash Tables
 
@@ -24,13 +26,13 @@ This aims to keep everything contained, reinforce learning, and make it easier t
 ### Done
 
 - Quick Sort
+- Depth-First Search
+- Breadth-First Search
 
 ### TODO
 
 - Binary Search
 - Merge Sort
-- Depth-First Search
-- Breadth-First Search
 
 # Grokking the Coding Interview
 

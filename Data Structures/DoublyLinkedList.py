@@ -7,10 +7,10 @@ class Node:
 class DoublyLinkedList:
     def __init__(self):
         self.length = 0
-        self.head = undefined
-        self.tail = undefined
+        self.head = None
+        self.tail = None
 
-    def prepend(item):
+    def prepend(self, item):
         length += 1
 
         node = Node(item)
@@ -22,7 +22,7 @@ class DoublyLinkedList:
         self.head = node
 
 
-    def insertAt(item, index):
+    def insertAt(self, item, index):
         if index > length:
             raise Exception("index can't be greater than length")
         elif index == length:
@@ -45,7 +45,7 @@ class DoublyLinkedList:
         prev.next = node
         current.prev = node
 
-    def append(item):
+    def append(self, item):
         self.length += 1
 
         node = Node(item)
@@ -58,7 +58,7 @@ class DoublyLinkedList:
         node.prev = self.tail
         self.tail = node
 
-    def remove(item):
+    def remove(self, item):
         current = self.head
         for i in range(self.length):
             if current.value == item:
@@ -66,28 +66,28 @@ class DoublyLinkedList:
             current = current.next
         
         if current is None:
-            return undefined
+            return None
 
         return self.removeNode(current)
 
-    def removeAt(index):
+    def removeAt(self, index):
         node = self.getAt(index)
         if node is None:
-            return undefined
+            return None
 
         return self.removeNode(node)
 
-    def get(index):
+    def get(self, index):
         return self.getAt(index).value
 
-    def getAt(index):
+    def getAt(self, index):
         current = self.head
         for i in range(index):
             current = current.next
         
         return current
 
-    def removeNode(node):
+    def removeNode(self, node):
         self.length -= 1
         if self.length == 0:
             out = self.head.value
@@ -95,8 +95,8 @@ class DoublyLinkedList:
             return out
 
         
-        prev = current.prev
-        next = current.next
+        prev = node.prev
+        next = node.next
 
         if prev:
             prev.next = next

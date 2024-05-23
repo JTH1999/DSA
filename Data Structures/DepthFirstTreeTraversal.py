@@ -10,8 +10,8 @@ def preOrderWalk(current, path):
     path.push(current.value)
 
     #recurse
-    walk(current.left, path)
-    walk(current.right, path)
+    preOrderWalk(current.left, path)
+    preOrderWalk(current.right, path)
 
     # post 
     return path
@@ -26,9 +26,9 @@ def inOrderWalk(current, path):
         return
 
     #recurse
-    walk(current.left, path)
+    inOrderWalk(current.left, path)
     path.push(current.value)
-    walk(current.right, path)
+    inOrderWalk(current.right, path)
 
     # post 
     return path
@@ -43,8 +43,8 @@ def postOrderWalk(current, path):
         return
     
     #recurse
-    walk(current.left, path)
-    walk(current.right, path)
+    postOrderWalk(current.left, path)
+    postOrderWalk(current.right, path)
     
     # post 
     path.push(current.value)
