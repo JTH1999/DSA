@@ -28,6 +28,7 @@ This aims to keep everything contained, reinforce learning, and make it easier t
 - Quick Sort
 - Depth-First Search
 - Breadth-First Search
+- Adjacency Matrix BFS
 
 ### TODO
 
